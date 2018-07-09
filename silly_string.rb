@@ -7,7 +7,7 @@ puts "My favorite word is" + your_favorite_word
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
-favorite_word_in_all_caps = Chase.upcase
+favorite_word_in_all_caps = "CHASE".upcase
 
 
 puts "MY FAVORITE WORD IS " + your_favorite_word.upcase
@@ -16,7 +16,7 @@ puts "MY FAVORITE WORD IS " + your_favorite_word.upcase
 
 phrase = "IM NOT SHOUTING"
 
-lowercased_phrase = phrase # Put a . after phrase and use a String method.
+lowercased_phrase = phrase.downcase
 
 puts lowercased_phrase
 
@@ -24,7 +24,7 @@ puts lowercased_phrase
 
 big_word = "supercalifragilisticexpialidocious"
 
-letter_count = big_word # Put a . after big_word and use a String method.
+letter_count = big_word.length
 
 puts "There are #{letter_count} in #{big_word}"
 
@@ -38,7 +38,7 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 # Challenge 6: Capitalize this sentence properly
 
-proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
+proper_sentence = "i really like programming.".capitalize
 
 puts proper_sentence
 
